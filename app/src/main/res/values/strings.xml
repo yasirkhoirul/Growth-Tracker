@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">GrowthTrack</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Yasir Khoirul Huda</string>
+    <string name="nama_user">nama user</string>
+    <string name="profle">profile</string>
+    <string name="icon">icon</string>
+    <string name="usernamedetail">Username</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="pw">**********</string>
+    <string name="yasirkhoirul9_gmail_com">yasirkhoirul9@gmail.com</string>
+    <string name="edit">edit</string>
+    <string name="history">history</string>
+    <string name="usia_bayi">Usia Bayi</string>
+    <string name="tinggi_badan_cm">Tinggi Badan (Cm)</string>
+    <string name="berat_badan_kg">Berat Badan (kg)</string>
+    <string name="tidak">Tidak</string>
+    <string name="iya">Iya</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="menyusui">Menyusui</string>
+    <string name="diagnose">Diagnose</string>
+</resources>
