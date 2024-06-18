@@ -59,7 +59,6 @@ class History : Fragment() {
                         val historyList = responseData.data
                         val rcv: RecyclerView? = view?.findViewById(R.id.rvhistory)
                         val adapter = AdapterHistory(historyList)
-
                         rcv?.adapter = adapter
 
                         // Lakukan sesuatu dengan historyList, misalnya tampilkan dalam RecyclerView

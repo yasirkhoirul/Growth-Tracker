@@ -46,7 +46,7 @@
                     android:id="@+id/namabayi"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/nama_bayi" />
+                    android:hint="Baby name" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -66,7 +66,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
-                    android:hint="@string/usia_bayi" />
+                    android:hint="baby's age" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -86,7 +86,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
-                    android:hint="@string/tinggi_badan_cm" />
+                    android:hint="Height (cm)" />
             </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -109,7 +109,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
-                    android:hint="@string/berat_badan_kg" />
+                    android:hint="Weight (kg)" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <RadioGroup
@@ -127,14 +127,14 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Laki laki" />
+                    android:text="Boy" />
 
                 <RadioButton
                     android:id="@+id/radioButton2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Perempuan" />
+                    android:text="Girl" />
             </RadioGroup>
 
             <TextView
@@ -145,7 +145,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:gravity="start"
-                android:text="@string/jenis_kelamin"
+                android:text="Gender"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.096"
                 app:layout_constraintStart_toStartOf="parent"
@@ -159,7 +159,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:gravity="start"
-                android:text="@string/menyusui"
+                android:text="breast feed"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -180,14 +180,14 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/iya" />
+                    android:text="yes" />
 
                 <RadioButton
                     android:id="@+id/MenyusuiTidak"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/tidak" />
+                    android:text="No" />
             </RadioGroup>
 
             <Button
