@@ -5,7 +5,7 @@
     <string name="title_notifications">Notifications</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="username">Yasir Khoirul Huda</string>
+    <string name="username">username</string>
     <string name="nama_user">nama user</string>
     <string name="profle">profile</string>
     <string name="icon">icon</string>
@@ -24,4 +24,9 @@
     <string name="jenis_kelamin">Jenis Kelamin</string>
     <string name="menyusui">Menyusui</string>
     <string name="diagnose">Diagnose</string>
+    <string name="nama_bayi">Nama Bayi</string>
+    <string name="anak_anda_terindikasi_stunting">Anak anda terindikasi stunting</string>
+    <string name="bahaya">BAHAYA</string>
+    <string name="usia_6_8_bulan">Usia 6- 8 bulan</string>
+    <string name="standar_makanan_tambahan_lokal_untuk_balita">Standar Makanan tambahan Lokal untuk Balita</string>
 </resources>

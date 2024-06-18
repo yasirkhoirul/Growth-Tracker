@@ -33,7 +33,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    buildFeatures {
+    buildFeatures{
         viewBinding = true
     }
 }
@@ -54,4 +54,15 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 //    implementation ("de.hdodenhof:circleimageview:3.1.0")
     implementation (libs.circleimageview)
+    //retrofit
+    implementation(libs.glide)
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    implementation(libs.logging.interceptor)
+    //lotties
+    implementation ("com.airbnb.android:lottie:3.4.0")
+    implementation("androidx.viewpager2:viewpager2:1.0.0")
+    //
+
+
 }

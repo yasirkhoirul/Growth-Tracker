@@ -94,11 +94,7 @@
                             android:text="@string/username" />
                     </LinearLayout>
 
-                    <ImageView
-                        android:layout_width="25dp"
-                        android:layout_height="match_parent"
-                        android:contentDescription="@string/edit"
-                        android:src="@drawable/bxs_edit" />
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -138,14 +134,10 @@
                             android:id="@+id/email"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/yasirkhoirul9_gmail_com" />
+                            android:text="email" />
                     </LinearLayout>
 
-                    <ImageView
-                        android:layout_width="25dp"
-                        android:layout_height="match_parent"
-                        android:contentDescription="@string/edit"
-                        android:src="@drawable/bxs_edit" />
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -189,6 +181,7 @@
                     </LinearLayout>
 
                     <ImageView
+                        android:id="@+id/reset"
                         android:layout_width="25dp"
                         android:layout_height="match_parent"
                         android:contentDescription="@string/edit"
